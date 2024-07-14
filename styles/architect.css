@@ -61,18 +61,19 @@
 
   /* Header section start  */
   header{
-    padding-top: 50px;
+    
 }
 
 .navbar{
     
     margin: 0 auto;
     justify-content: space-between;
-    /* margin: 50px 0 102px 0; */
+    
+    align-items: baseline;
     
   }
   .brand{
-    margin: 16px 0;
+    
   }
   .nav-links{
     
