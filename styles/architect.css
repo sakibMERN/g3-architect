@@ -60,24 +60,14 @@
 
 
   /* Header section start  */
-  header{
-    
-}
-
 .navbar{
     
     margin: 0 auto;
     justify-content: space-between;
-    
     align-items: baseline;
     
   }
-  .brand{
-    
-  }
-  .nav-links{
-    
-  }
+  
   .navbar .nav-link{
     text-decoration: none;
     font-size: 18px;
