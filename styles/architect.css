@@ -17,7 +17,7 @@
   /* Common class */
 
 
-  nav, main{
+  nav, section,  main {
     max-width: 1440px;
   }
 
@@ -80,8 +80,53 @@
   }
   .navbar .nav-link{
     text-decoration: none;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
     margin-right: 40px;
   }
   .navbar .nav-item{
     list-style-type: none;
+  }
+
+  .banner-container{
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .banner{
+    max-width: 862px;
+    margin: 0 auto;
+  }
+  .banner .banner-title{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+  .banner .banner-description{
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .btn{
+    margin-bottom: 50px;
+  }
+
+  button{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 25px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 8px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .banner-img{
+    border-radius: 8px;
+    margin-bottom: 83px;
   }
