@@ -14,7 +14,7 @@
     padding: 0;
   }
 
-  /* Common class */
+  /* Shared style section start */
 
 
   nav, section,  main {
@@ -50,14 +50,14 @@
     color: #131313;
   }
 
-  /* Common style for every description  */
+  /* style for every description  */
   .description{
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 26px;
     color: #727272;
   }
 
-  /* Common style section end  */
+  /* Shared style section end  */
 
 
   /* Header section start  */
@@ -71,23 +71,24 @@
   
   .navbar .nav-link{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 26px;
     font-weight: 500;
     margin-right: 40px;
   }
   .navbar .nav-item{
     list-style-type: none;
+    
   }
 
-  .banner-container{
+  .banner{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
   }
   
-  .banner{
+  .banner-content{
     max-width: 862px;
     
   }
@@ -101,6 +102,9 @@
     text-align: center;
     margin-bottom: 32px;
   }
+  button{
+    cursor: pointer;
+  }
 
   .btn{
     margin-bottom: 50px;
@@ -108,17 +112,33 @@
 
   button{
     display: block;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     padding: 21px 25px;
     color: #FFFFFF;
     background-color: #FF900E;
+    border: none;
     border-radius: 8px;
     margin: 0 auto;
     text-align: center;
   }
 
   .banner-img{
+    width: 100%;
     border-radius: 8px;
     margin-bottom: 83px;
   }
+
+  /* Make responsive Header section  */
+  @media screen and (max-width:576px) {
+    .navbar, .nav-links{
+      flex-direction: column;
+    }
+    .nav-item{
+      text-align: center;
+    }
+    .navbar .nav-link{
+      /* margin: 0 auto; */
+    }
+  }
+  
