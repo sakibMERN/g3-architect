@@ -136,6 +136,7 @@
     .navbar, .nav-links{
       flex-direction: column;
     }
+    
     .nav-item{
       text-align: center;
     }
@@ -144,9 +145,9 @@
     }
   }
   @media screen and (min-width:576px) and (max-width:992px) {
+    
     .navbar, .nav-links{
-      flex-direction: column;
-    }
+     
     .nav-item{
       text-align: center;
     }
