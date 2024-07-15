@@ -134,6 +134,7 @@
 
   /* Make responsive Header section  */
   @media screen and (max-width:576px) {
+    
     .navbar, .nav-links{
       flex-direction: column;
     }
@@ -146,6 +147,7 @@
     }
   }
   @media screen and (min-width:576px) and (max-width:992px) {
+    
     
     .navbar, .nav-links{
       flex-direction: row;
@@ -218,10 +220,11 @@
   @media screen and (min-width: 576px) and (max-width:992px) {
     .teams{
       flex-direction: column;
+      padding: 5px;
     }
     .teams .team-image-container{
       
-      gap: 20px;
+      gap: 10px;
     }
     .features{
       margin: 0 auto;
