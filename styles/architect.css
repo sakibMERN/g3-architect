@@ -221,7 +221,7 @@
     }
     .teams .team-image-container{
       
-      gap: 50px;
+      gap: 20px;
     }
     .features{
       margin: 0 auto;
@@ -310,20 +310,41 @@
       flex-direction: column;
       justify-content: center;
       padding: 5px;
-      /* margin: 0 auto; */
+      
     }
     
     .enjoy .enjoy-feature-image{
       width: 100%; 
-      margin-left: 0px;
-      
+      margin-left: 0px; 
     }
     .enjoy .enjoy-image{
       width: 100%;
     }
     .enjoy .experience{
-      left: 95px;
+      left: 95px;  
+    }
+  }
+  @media screen and (min-width: 576px) and (max-width:992px) {
+    main .enjoy{
+      flex-direction: column;
+      justify-content: center;
+      padding: 5px;
       
+    }
+    .enjoy-grid{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    .enjoy .enjoy-feature-image{
+      margin: 0px; 
+    }
+    .enjoy .enjoy-image{
+      width: 100%;
+    }
+    .enjoy .experience{
+      left: 495px;  
+      bottom: 5px;
     }
   }
   
