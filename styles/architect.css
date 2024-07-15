@@ -245,7 +245,9 @@
   .enjoy-title{
     margin-bottom: 24px;
     line-height: 53px;
+    padding-left: 21px;
     margin-bottom: 24px;
+    border-left: 5px solid #FF900E;
     
   }
   .enjoy .enjoy-description{
@@ -299,6 +301,28 @@
     text-align: center;
     color: #FFFFFF;
 
+  }
+
+  /* Make responsive Future you will enjoy section  */
+
+  @media screen and (max-width: 576px) {
+    main .enjoy{
+      flex-direction: column;
+      justify-content: center;
+      /* margin: 0 auto; */
+    }
+    .enjoy .enjoy-feature-image{
+      width: 100%; 
+      margin-left: 0px;
+      
+    }
+    .enjoy .enjoy-image{
+      width: 100%;
+    }
+    .enjoy .experience{
+      left: 100px;
+      /* bottom: 70px; */
+    }
   }
   
   
