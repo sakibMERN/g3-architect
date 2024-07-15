@@ -309,8 +309,10 @@
     main .enjoy{
       flex-direction: column;
       justify-content: center;
+      padding: 5px;
       /* margin: 0 auto; */
     }
+    
     .enjoy .enjoy-feature-image{
       width: 100%; 
       margin-left: 0px;
@@ -320,8 +322,8 @@
       width: 100%;
     }
     .enjoy .experience{
-      left: 100px;
-      /* bottom: 70px; */
+      left: 95px;
+      
     }
   }
   
