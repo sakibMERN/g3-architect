@@ -19,6 +19,7 @@
 
   nav, section,  main {
     max-width: 1440px;
+    margin: 0 auto;
   }
 
   /* common display property  */
@@ -44,7 +45,7 @@
 
   /* Common style for every title  */
   .title{
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
     color: #131313;
   }
@@ -64,7 +65,7 @@
     
     margin: 0 auto;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     
   }
   
@@ -82,16 +83,17 @@
   .banner-container{
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 0 auto;
   }
   
   .banner{
     max-width: 862px;
-    margin: 0 auto;
+    
   }
   .banner .banner-title{
     text-align: center;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 700;
     margin-bottom: 32px;
   }
