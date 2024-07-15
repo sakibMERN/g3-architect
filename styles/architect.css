@@ -61,6 +61,9 @@
 
 
   /* Header section start  */
+  header{
+    margin-bottom: 47px;
+  }
 .navbar{
     
     margin: 0 auto;
@@ -102,15 +105,11 @@
     text-align: center;
     margin-bottom: 32px;
   }
-  button{
-    cursor: pointer;
-  }
+
+
+ 
 
   .btn{
-    margin-bottom: 50px;
-  }
-
-  button{
     display: block;
     font-size: 1.25rem;
     font-weight: 600;
@@ -120,7 +119,9 @@
     border: none;
     border-radius: 8px;
     margin: 0 auto;
+    margin-bottom: 50px;
     text-align: center;
+    cursor: pointer;
   }
 
   .banner-img{
@@ -128,6 +129,7 @@
     border-radius: 8px;
     margin-bottom: 83px;
   }
+
 
   /* Make responsive Header section  */
   @media screen and (max-width:576px) {
@@ -137,8 +139,47 @@
     .nav-item{
       text-align: center;
     }
-    .navbar .nav-link{
-      /* margin: 0 auto; */
+    .banner{
+      padding: 5px;
     }
   }
+
+  /* Main section start here  */
+
+  /* Features section  */
+
+  .teams{
+    align-items: center;
+    margin-bottom: 130px;
+  }
+  .teams .team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .features{
+    max-width: 537px;
+    margin-left: 73px;
+  }
+
+  .features .feature-title{
+    margin-bottom: 24px;
+  }
+  .features .features-description{
+    margin-bottom: 32px;
+  }
+  
+  #quick-list{
+    font-weight: 500;
+  }
+  #highlight{
+    font-weight: 700;
+    color: #FF900E;
+  }
+  .features .btn{
+    margin: 0;
+  }
+
+
   
