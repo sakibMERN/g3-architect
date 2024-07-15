@@ -147,7 +147,9 @@
     }
   }
   @media screen and (min-width:576px) and (max-width:992px) {
-    
+    .brand{
+      margin-left: 20px;
+    }
     
     .navbar, .nav-links{
       flex-direction: row;
