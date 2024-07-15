@@ -107,9 +107,6 @@
     margin-bottom: 32px;
   }
 
-
- 
-
   .btn{
     display: block;
     font-size: 1.25rem;
@@ -134,11 +131,20 @@
 
   /* Make responsive Header section  */
   @media screen and (max-width:576px) {
-    
-    .navbar, .nav-links{
+    .navbar{
       flex-direction: column;
     }
-    
+    .brand{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .nav-links{
+      flex-direction: row;
+      padding: 0;
+    }
+    .navbar .nav-link{
+      margin-right: 10px;
+    }
     .nav-item{
       text-align: center;
     }
