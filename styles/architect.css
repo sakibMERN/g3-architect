@@ -239,7 +239,7 @@
     justify-content: space-between;
     gap: 54px;
     box-sizing: border-box;
-    position: relative;
+    /* position: relative; */
     margin-bottom: 130px;
   }
   .enjoy-title{
@@ -276,6 +276,7 @@
   .enjoy .enjoy-feature-image{
     margin-left: 92px;
     margin-bottom: 90px;
+    position: relative;
   }
   /* 10 Years experience section */
   .enjoy .experience{
@@ -283,8 +284,8 @@
     padding: 45px 42px;
     border-radius: 8px;
     position: absolute;
-    bottom: 0;
-    left: 660px;
+    bottom: -100px;
+    left: -80px;
 
   }
   .enjoy .experience-year{
@@ -321,7 +322,8 @@
       width: 100%;
     }
     .enjoy .experience{
-      left: 95px;  
+      left: 0;
+      bottom: -200px;  
     }
   }
   @media screen and (min-width: 576px) and (max-width:992px) {
@@ -343,8 +345,8 @@
       width: 100%;
     }
     .enjoy .experience{
-      left: 495px;  
-      bottom: 5px;
+      left: 0;  
+      bottom: 0;
     }
   }
   
