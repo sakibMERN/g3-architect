@@ -139,6 +139,7 @@ header {
   }
   .navbar .nav-link {
     margin-right: 10px;
+    border-bottom: 3px solid #ff900e;
   }
   .nav-item {
     text-align: center;
