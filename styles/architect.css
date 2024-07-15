@@ -32,6 +32,7 @@
     background-color: rgba(255, 144, 14, 0.1);
   }
 
+
   /* Font color  */
   .dark{
     color: #131313;
@@ -231,4 +232,73 @@
       margin: 0 auto;
     }
   }
+
+  /* Feature you will enjoy section  */
+
+  main .enjoy{
+    justify-content: space-between;
+    gap: 54px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 130px;
+  }
+  .enjoy-title{
+    margin-bottom: 24px;
+    line-height: 53px;
+    margin-bottom: 24px;
+    
+  }
+  .enjoy .enjoy-description{
+    margin-bottom: 30px;
+  }
+  
+  .feature-container{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    
+  }
+
+  .feature-container .content-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+  .feature-container .content-description{
+    margin: 0px;
+  }
+  
+  .enjoy .enjoy-feature-image{
+    margin-left: 92px;
+    margin-bottom: 90px;
+  }
+  /* 10 Years experience section */
+  .enjoy .experience{
+    background-color: #FF900E;
+    padding: 45px 42px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 660px;
+
+  }
+  .enjoy .experience-year{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .enjoy .experience-description{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+  
   
