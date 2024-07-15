@@ -394,10 +394,15 @@ main .enjoy {
     padding: 5px;
     margin-top: 200px;
     margin-bottom: 100px;
-    row-gap: 10px;
+    
   }
   .fact-container {
     grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    row-gap: 10px;
+  }
+  .fact-card{
+    width: 100%;
   }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
