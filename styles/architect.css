@@ -364,6 +364,7 @@ main .enjoy {
 .fact-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
 }
 .fact-card {
   justify-content: center;
@@ -422,5 +423,34 @@ main .enjoy {
   .fact-title{
     margin: 0;
   }
+}
+
+/* Sponsor section start */
+
+.sponsor{
+  margin-bottom: 130px;
+}
+.sponsor-info{
+  max-width: 542px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sponsor-title{
+  margin: 0;
+  margin-bottom: 24px;
+}
+.sponsor-description{
+  margin-bottom: 0;
+}
+.sponsor-list{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 155px;
+  filter: grayscale(100%);
+}
+.sponsor-list img{
+  text-align: center;
+  border: 3px dashed gray;
 }
 
