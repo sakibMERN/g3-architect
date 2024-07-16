@@ -18,7 +18,7 @@ body {
 
 nav,
 section,
-main {
+main,footer {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -471,4 +471,15 @@ main .enjoy {
     justify-items: center;
     gap: 70px;
   }
+}
+
+/* Footer section start  */
+footer{
+  padding: 39px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+footer p{
+  text-align: center;
+  margin: 0px;
 }
