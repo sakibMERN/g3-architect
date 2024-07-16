@@ -454,3 +454,21 @@ main .enjoy {
   border: 3px dashed gray;
 }
 
+/* Responsive for sponsor section */
+@media screen and (max-width:576px) {
+  .sponsor-list{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 70px;
+  }
+  .sponsor{
+    padding: 5px;
+  }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+  .sponsor-list{
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 70px;
+  }
+}
